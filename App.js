@@ -30,7 +30,7 @@ const App = () => {
   const logCustomeEvent = () => {
     analytics().logEvent('my_custom_event', {
       id: 101,
-      item: 'My Product Name',
+      item: 'feature-1',
       description: ['My Product Desc 1', 'My Product Desc 2'],
     });
   };
